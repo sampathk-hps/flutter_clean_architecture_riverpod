@@ -1,6 +1,6 @@
-# field_service_app
+# flutter_clean_architecture
 
-Flutter app for field-service job management.
+Flutter app for clean architecture starter project.
 
 ## Compile-Time Environment Configuration
 
