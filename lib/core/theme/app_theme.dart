@@ -27,16 +27,16 @@ abstract final class AppTheme {
         foregroundColor: colors.primaryText,
       ),
       cardTheme: CardThemeData(
-        shape: RoundedRectangleBorder(borderRadius: AppRadius.card),
+        shape: RoundedRectangleBorder(borderRadius: AppRadius.general),
       ),
       inputDecorationTheme: InputDecorationTheme(
-        border: OutlineInputBorder(borderRadius: AppRadius.controlShape),
+        border: OutlineInputBorder(borderRadius: AppRadius.general),
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
           minimumSize: const Size(double.infinity, AppSizes.buttonHeight),
           elevation: AppShadows.actionButtonElevation,
-          shape: RoundedRectangleBorder(borderRadius: AppRadius.controlShape),
+          shape: RoundedRectangleBorder(borderRadius: AppRadius.general),
         ),
       ),
     );
@@ -62,16 +62,16 @@ abstract final class AppTheme {
         foregroundColor: colors.primaryText,
       ),
       cardTheme: CardThemeData(
-        shape: RoundedRectangleBorder(borderRadius: AppRadius.card),
+        shape: RoundedRectangleBorder(borderRadius: AppRadius.general),
       ),
       inputDecorationTheme: InputDecorationTheme(
-        border: OutlineInputBorder(borderRadius: AppRadius.controlShape),
+        border: OutlineInputBorder(borderRadius: AppRadius.general),
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
           minimumSize: const Size(double.infinity, AppSizes.buttonHeight),
           elevation: AppShadows.actionButtonElevation,
-          shape: RoundedRectangleBorder(borderRadius: AppRadius.controlShape),
+          shape: RoundedRectangleBorder(borderRadius: AppRadius.general),
         ),
       ),
     );
